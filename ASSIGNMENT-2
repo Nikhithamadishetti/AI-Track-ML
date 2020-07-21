@@ -27,7 +27,7 @@ del_x=1
 maxiterations=10000
 iterations=0
 def deriv(x):
-    xde=2*(x)
+    xde=4*x**3+6*x 
     return xde
 
 while abs(del_x)>eps and iterations<maxiterations:
@@ -40,5 +40,5 @@ print("the local min ocurs at",x)
 
 solution:
 
-The local min ocurs at 8.859385508912349e-06 in 117 iterations.
+The local min ocurs at 1.5114009452630606e-05 in 179 iterations.
           
